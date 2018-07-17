@@ -12,9 +12,9 @@ function nowServing(katzDeli, name) {
   }
   else {
     return `Currently serving ${katzDeli[0]}.`}
-    then katzDeli.shift();
+    katzDeli.shift();
   }
-}
+
 
 function currentLine(katzDeli, name) {
   if (katzDeli.length === 0) {
