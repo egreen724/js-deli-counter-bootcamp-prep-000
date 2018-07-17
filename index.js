@@ -6,16 +6,18 @@ function takeANumber(katzDeli, name) {
   return `Welcome ${name}, you are number ${katzDeli.length} in line.`;
 }
 
-function nowServing(katzDeliLine, name) {
+function nowServing(katzDeli, name) {
   if (katzDeli != []) {
   return `Currently serving ${katzDeli[0]}.`
-  katzDeli.shift(name);
+  katzDeli.shift();
   }
   else {
   return "There is nobody waiting to be served!"}
 }
 
-function currentLine(katzDeliLine, name) {
-  return "The line is currently: 1. katzDeliLine[0] 2. katzDeliLine[1] 3. katzDeliLine[2].";
-  or "The line is currently empty."
+function currentLine(katzDeli, name) {
+  if (katzDelireturn != []) {
+  return `The line is currently: 1. ${katzDeliLine[0]} 2. ${katzDeliLine[1]} 3. ${katzDeliLine[2]}.`}
+  else {
+  return "The line is currently empty."}
 }
