@@ -3,7 +3,7 @@ var otherDeli = [];
 
 function takeANumber(katzDeli, name) {
   katzDeli.push(name); 
-  return `Welcome ${name}. You are number ${katzDeli.length} in line.`;
+  return `Welcome, ${name}. You are number ${katzDeli.length} in line.`;
 }
 
 function nowServing(katzDeli, name) {
@@ -11,8 +11,8 @@ function nowServing(katzDeli, name) {
   return "There is nobody waiting to be served!" 
   }
   else {
-    return `Currently serving ${katzDeli[0]}.`
-     katzDeli.shift();
+    return `Currently serving ${katzDeli[0]}.`}
+    then katzDeli.shift();
   }
 }
 
