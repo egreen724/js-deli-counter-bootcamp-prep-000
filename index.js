@@ -7,7 +7,10 @@ function takeANumber(katzDeli, name) {
 }
 
 function nowServing(katzDeliLine, name) {
-  return `Currently serving ${name}.`
+  if (katzDeli 
+  return katzDeli[0]
+  console.log(`Currently serving ${katzDeli[0]}.`)
+  else 
   or "There is nobody waiting to be served!"
 }
 
